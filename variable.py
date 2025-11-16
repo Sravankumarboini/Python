@@ -59,7 +59,7 @@ print(c)
 
 #input(by default String)
 
-d = int(input("Enter value of d :"))
+d = float(input("Enter value of d :"))
 
-e = int(input("Enter value of e :"))
+e = float(input("Enter value of e :"))
 print((d+e)/2)
