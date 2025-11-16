@@ -47,3 +47,12 @@ var = False
 print(not var)
 print(a>b and b>a)
 print(a>b or b>a)
+
+#Type Conversion(implicit(done by compiler))
+
+print(a/b) #implicitly cpnverting to float
+
+#Type Casting(Explicit)(int(), bool(), float())
+
+c=int(PI)
+print(c)
