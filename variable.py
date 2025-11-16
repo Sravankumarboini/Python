@@ -56,3 +56,10 @@ print(a/b) #implicitly cpnverting to float
 
 c=int(PI)
 print(c)
+
+#input(by default String)
+
+d = int(input("Enter value of d :"))
+
+e = int(input("Enter value of e :"))
+print(d+e)
