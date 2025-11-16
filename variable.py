@@ -62,4 +62,4 @@ print(c)
 d = int(input("Enter value of d :"))
 
 e = int(input("Enter value of e :"))
-print(d+e)
+print((d+e)/2)
