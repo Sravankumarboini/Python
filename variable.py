@@ -32,3 +32,18 @@ print(a//b)
 print(a**b)
 
 #relational operator
+print(a<b)
+print(a>=b)
+print(a!=b)
+print(a==b)
+
+#Assignment operator(=,+=,-=,*=,/=)
+a=b 
+
+#logical operator(not(!) , and(&&) , or(||))
+
+var = False
+
+print(not var)
+print(a>b and b>a)
+print(a>b or b>a)
