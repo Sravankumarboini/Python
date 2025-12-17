@@ -23,3 +23,7 @@ print("sum of {1} & {0} is {2}".format(10,15,25))
 #value based formatting
 print("values of a= {a} & b={b}".format(a=5,b=10))
 
+#f-string
+a=5
+b=10
+print(f"sum of {a} & {b} is {a+b} ")
