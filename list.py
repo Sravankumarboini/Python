@@ -31,3 +31,12 @@ print(nums)
 #reverse
 nums.reverse()
 print(nums)
+
+#loops
+x=10
+idx=0
+for val in nums:
+    if x==val:
+        print(f"x fount at idx = {idx}")
+        break
+    idx=idx+1
