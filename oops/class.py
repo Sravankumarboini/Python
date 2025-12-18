@@ -45,9 +45,16 @@ class Laptop :
 
     def get_info(self): #instance method
         print(f"laptop has {self.RAM} & {self.storage} {self.storage_type}")
+
+    @staticmethod
+    def calc_discount(price,discount):
+        final_prince = price - (discount*price/100)
+        print(f"discount_price = {final_prince}")
 l1 = Laptop("16gb", "512gb")
 l2 = Laptop("8gb", "256gb")
 
 l1.get_info()
 
 l1.get_storage_type()
+
+l1.calc_discount(40_000,10)
