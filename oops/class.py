@@ -15,3 +15,18 @@ print(stu2.name,stu2.cgpa)
 print(stu3.name,stu3.cgpa)
 
 print(stu1.get_cgpa())
+
+
+class stu :
+    college_name = "abc college" #class attribute
+    
+    def __init__(self, name, cgpa) :
+        self.name = name #object atrribute(these changes according to object)
+        self.cgpa = cgpa
+
+st1 = stu("sravan kumar",8.5)
+
+print(st1.college_name)
+print(stu.college_name)
+print(st1.name)
+print(st1.cgpa)
