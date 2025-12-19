@@ -1,4 +1,4 @@
-s = input()
+s = input("Enter the string: ")
 
 flag=1
 
