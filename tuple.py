@@ -6,7 +6,9 @@ print(tuple)
 print(len(tuple))
 
 print(tuple[3:])
+
 sum=0
+
 for val in tuple:
     sum+=val
 print(sum)
