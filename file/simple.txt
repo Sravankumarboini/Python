@@ -1,3 +1,4 @@
 old text which already
-exists in file .new text being appended to 
- to the file 
+exists in file .
+new text being appended to 
+to the file 

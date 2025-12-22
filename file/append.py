@@ -1,5 +1,5 @@
 f = open("simple.txt", "a")
 
-f.write("new text being appended to \n to the file ")
+f.write("\nnew text being appended to \nto the file ")
 
 f.close()
