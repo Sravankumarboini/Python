@@ -11,6 +11,4 @@ data1 = f.readline() #it will read line by line
 
 print(data1)
 
-f.write("Text to override \n the complete data.")
-
 f.close()
