@@ -4,9 +4,12 @@ try:
 
 except ZeroDivisionError:
     print(f"Divide by zero is not allowed")
-    
+
 except ValueError:
     print("Invalid input")
 
 else:
     print(f"ans = {ans}")
+
+finally:
+    print("end of program")
