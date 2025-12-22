@@ -1,0 +1,9 @@
+{
+    "name" : "sravan kumar",
+    "isStudent" : true,
+    "address" :{
+        "city" : "suryapet",
+        "country" : "telangana"
+    },
+    "subjects" : ["python", "AI/ML"]
+}
