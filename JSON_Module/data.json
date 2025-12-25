@@ -3,7 +3,7 @@
     "isStudent" : true,
     "address" :{
         "city" : "suryapet",
-        "country" : "telangana"
+        "country" : "INDIA"
     },
     "subjects" : ["python", "AI/ML"]
 }
